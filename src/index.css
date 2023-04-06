@@ -1,0 +1,54 @@
+
+body {
+  background-color: black;
+  font-family: system-ui;
+  color: white;
+  font-size: 100px;
+}
+
+
+.counterContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.counterContainer i {
+  font-size: 90px;
+  width: 150px;
+}
+
+.numeros{
+  border: 2px solid rgb(65, 64, 64);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+  padding: none;
+  margin: 0;
+  height: 150px;
+  width: 100px;
+  
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.btnContainer button {
+  background-color: rgb(46, 115, 136);
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+
+}
+
